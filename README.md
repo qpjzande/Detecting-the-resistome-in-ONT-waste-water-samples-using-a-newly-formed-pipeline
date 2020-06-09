@@ -12,15 +12,15 @@ ONT data is used to develop the pipeline, Illumina data is used as a control whe
 
 
 **Used datasets:**\
-*gridION:*\
-AWGS180032_LR (2.7 Gb)\
-AWGS180033_LR (6.2 Gb)
+gridION:\
+*AWGS180032_LR (2.7 Gb)*\
+*AWGS180033_LR (6.2 Gb)*
 
-*HiSeq paired (duplicates as control):*\
-SR32_SR_1.fastq (452 Mb)\
-SR32_SR_2.fastq (479 Mb)\
-SR33_SR_1.fastq (404 Mb)\
-and SR33_SR_2.fastq (428 Mb)\
+HiSeq paired (duplicates as control):\
+*SR32_SR_1.fastq (452 Mb)*\
+*SR32_SR_2.fastq (479 Mb)*\
+*SR33_SR_1.fastq (404 Mb)*\
+*SR33_SR_2.fastq (428 Mb)*\
 \
 **Below are the steps used in this project:**
 
@@ -57,14 +57,14 @@ To simplify the database, Find out for each subgroup which subtype has the highe
 \
 **To run KMA in linux:**
 
-*Create a database index using the following command:*\
-kma index -i DATABASE_FILE -o OUTPUT_NAME
+Create a database index using the following command:\
+*kma index -i DATABASE_FILE -o OUTPUT_NAME*
 
-*Run KMA:*\
-kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE
+Run KMA:\
+*kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE*
 
 \
 **Files within repository:**
 
-Simplified database (only the detected genes were simplified): Database32final1.fasta
+Simplified database (only the detected genes were simplified): *Database32final1.fasta*
 
