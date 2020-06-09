@@ -56,14 +56,14 @@ To simplify the database, Find out for each subgroup which subtype has the highe
 \
 To run KMA in linux:
 
-Create a database index using the following command:\
+Create a database index using the following command:
 kma index -i DATABASE_FILE -o OUTPUT_NAME
 
 Run KMA:\
 kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE
 
 \
-Files within repository:\
+Files within repository:
 
 Simplified database (only the detected genes were simplified): Database32final1.fasta
 
