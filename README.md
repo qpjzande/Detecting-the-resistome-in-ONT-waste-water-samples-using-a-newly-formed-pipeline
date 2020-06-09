@@ -53,9 +53,7 @@ Compare the data of the duplicates analyzed using both Oxford Nanopore and Illum
 Step9:
 To simplify the database, Find out for each subgroup which subtype has the highest identity value. All other subtypes within this group are removed from the database. This is done for all detected groups within the datasets.
 
-
-
-
+\
 To run KMA in linux:
 
 Create a database index using the following command:
@@ -64,9 +62,7 @@ kma index -i DATABASE_FILE -o OUTPUT_NAME
 Run KMA:
 kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE
 
-
-
-
+\
 Files within repository:
 
 Simplified database (only the detected genes were simplified): Database32final1.fasta
