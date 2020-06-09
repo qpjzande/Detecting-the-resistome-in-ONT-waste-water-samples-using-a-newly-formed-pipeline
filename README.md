@@ -2,11 +2,23 @@
 In this research, we developed a pipeline to detect antibiotic resistance genes in ONT data
 
 The goal of this project is to develop a pipeline that is able to detect antibiotic resistance genes in metagenomic samples and give a overall overview of what resistance genes are present in used datasets.
+ONT data is used to develop the pipeline, Illumina data is used as a control whether the pipeline produces reliable output.
 
 Flowchart:
 
 ![](images/flowchart%20end.jpg)
 
+
+Used datasets:
+gridION:
+AWGS180032_LR (2.7 Gb)
+AWGS180033_LR (6.2 Gb)
+
+HiSeq paired (duplicates as control):
+SR32_SR_1.fastq (452 Mb)
+SR32_SR_2.fastq (479 Mb)
+SR33_SR_1.fastq (404 Mb)
+and SR33_SR_2.fastq (428 Mb)
 
 Below are the steps used in this project:
 
