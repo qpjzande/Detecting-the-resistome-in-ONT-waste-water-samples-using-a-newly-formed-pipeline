@@ -7,7 +7,7 @@ ONT data is used to develop the pipeline, Illumina data is used as a control whe
 
 Flowchart:
 
-![](images/flowchart%20end.jpg)
+![](images/flowchart%20end.jpg)/
 
 
 Used datasets:
