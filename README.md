@@ -19,7 +19,7 @@ HiSeq paired (duplicates as control):\
 SR32_SR_1.fastq (452 Mb)\
 SR32_SR_2.fastq (479 Mb)\
 SR33_SR_1.fastq (404 Mb)\
-and SR33_SR_2.fastq (428 Mb)
+and SR33_SR_2.fastq (428 Mb)\
 \
 Below are the steps used in this project:
 
