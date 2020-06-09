@@ -48,3 +48,9 @@ kma index -i DATABASE_FILE -o OUTPUT_NAME
 
 Run KMA:
 kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE
+
+
+Files within repository:
+
+Simplified database (only the detected genes were simplified): Database32final1.fasta
+
