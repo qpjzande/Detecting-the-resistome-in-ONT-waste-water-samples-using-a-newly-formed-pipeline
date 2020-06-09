@@ -26,7 +26,7 @@ Step4:
 Run KMA on both filtered long read files using the Resfinder database as template. Download the .res output files and open them in Microsoft Excel.
 
 Step5:
-Back in Galaxy, run FastWC on Illumina data and trim the first 15 nucleotides using trimmomatic's Headcrop feature.
+Back in Galaxy, run FastQC on Illumina data and trim the first 15 nucleotides using trimmomatic's Headcrop feature.
 
 Step6:
 Assemble the trimmed reads using Shovill on default settings.
@@ -35,7 +35,7 @@ Step7:
 Run Staramr on both assemblies, with the Pointfinder database disabled.
 
 Step8:
-Compare the data of the duplicates analyzed using both ONT and Illumina.
+Compare the data of the duplicates analyzed using both Oxford Nanopore and Illumina technologies,
 
 Step9:
 To simplify the database, Find out for each subgroup which subtype has the highest identity value. All other subtypes within this group are removed from the database. This is done for all detected groups within the datasets.
