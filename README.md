@@ -1,7 +1,7 @@
 # Detecting-the-resistome-in-ONT-waste-water-samples-using-a-newly-formed-pipeline
 In this research, we developed a pipeline to detect antibiotic resistance genes in ONT data
 
-**Goal:**
+**Goal:**\
 The goal of this project is to develop a pipeline that is able to detect antibiotic resistance genes in metagenomic samples and give a overall overview of what resistance genes are present in used datasets.
 
 ONT data is used to develop the pipeline, Illumina data is used as a control whether the pipeline produces reliable output.
@@ -12,11 +12,11 @@ ONT data is used to develop the pipeline, Illumina data is used as a control whe
 
 
 **Used datasets:**\
-*gridION:\*
+*gridION:*\
 AWGS180032_LR (2.7 Gb)\
 AWGS180033_LR (6.2 Gb)
 
-*HiSeq paired (duplicates as control):\*
+*HiSeq paired (duplicates as control):*\
 SR32_SR_1.fastq (452 Mb)\
 SR32_SR_2.fastq (479 Mb)\
 SR33_SR_1.fastq (404 Mb)\
@@ -57,10 +57,10 @@ To simplify the database, Find out for each subgroup which subtype has the highe
 \
 **To run KMA in linux:**
 
-*Create a database index using the following command:\*
+*Create a database index using the following command:*\
 kma index -i DATABASE_FILE -o OUTPUT_NAME
 
-*Run KMA:\*
+*Run KMA:*\
 kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE
 
 \
