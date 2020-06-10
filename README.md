@@ -23,7 +23,6 @@ HiSeq paired (duplicates as control):\
 *SR33_SR_2.fastq (428 Mb)*\
 \
 **Below are the steps used in this project:**
-
 Step1:
 upload the data to Galaxy (http://galaxy.bioinformatics-atgm.nl:2222/)
 
@@ -57,21 +56,21 @@ To simplify the database, Find out for each subgroup which subtype has the highe
 **Galaxy-workflows:**\
 Illumina-workflow single genome: *Galaxy-Workflow-Illumina_ARG_detection.ga*\
 ONT-workflow single genome: *Galaxy-Workflow-ONT_ARG_metagenome.ga*\
-ONT-workflow metagenome: *Galaxy-Workflow-ON_ARG_genome.ga*T
+ONT-workflow metagenome: *Galaxy-Workflow-ON_ARG_genome.ga*\
 \
 **To install KMA in linux:**\
 installation:\
 *conda install kma*
 
 activation:\
-*conda activate ENVIRONMENT*
+*conda activate ENVIRONMENT*\
 \
 **To run KMA in linux:**
 Create a database index using the following command:\
 *kma index -i DATABASE_FILE -o OUTPUT_NAME*
 
 Run KMA:\
-*kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE*
+*kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE*\
 \
 **Files within repository:**\
 Simplified database (only the detected genes were simplified): *Database32final1.fasta*\
