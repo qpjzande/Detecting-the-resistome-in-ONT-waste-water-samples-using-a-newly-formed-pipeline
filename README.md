@@ -58,7 +58,6 @@ To simplify the database, Find out for each subgroup which subtype has the highe
 Illumina-workflow single genome: *Galaxy-Workflow-Illumina_ARG_detection.ga*\
 ONT-workflow single genome: *Galaxy-Workflow-ONT_ARG_metagenome.ga*\
 ONT-workflow metagenome: *Galaxy-Workflow-ON_ARG_genome.ga*T
-
 \
 **To install KMA in linux:**\
 installation:\
@@ -66,7 +65,6 @@ installation:\
 
 activation:\
 *conda activate ENVIRONMENT*
-
 \
 **To run KMA in linux:**
 Create a database index using the following command:\
@@ -74,9 +72,8 @@ Create a database index using the following command:\
 
 Run KMA:\
 *kma -i INPUT_FILE -o OUTPUT_FILE -t_db INDEXED_DATABASE*
-
 \
-**Files within repository:**
+**Files within repository:**\
 Simplified database (only the detected genes were simplified): *Database32final1.fasta*\
 Output from genomic ONT dataset AWGS180032_LR: *output_32.1f.res*\
 Output from genomic ONT dataset AWGS180033_LR: *output_33.f1.res*\
