@@ -55,8 +55,9 @@ Step9:
 To simplify the database, Find out for each subgroup which subtype has the highest identity value. All other subtypes within this group are removed from the database. This is done for all detected groups within the datasets.
 \
 **Galaxy-workflows:**\
-Illumina-workflow: *Galaxy-Workflow-Illumina_ARG_detection.ga*\
-ONT-workflow: 
+Illumina-workflow single genome: *Galaxy-Workflow-Illumina_ARG_detection.ga*\
+ONT-workflow single genome: 
+ONT-workflow metagenome:
 
 \
 **To install KMA in linux:**\
