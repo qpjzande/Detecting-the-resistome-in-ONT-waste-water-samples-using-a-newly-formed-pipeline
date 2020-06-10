@@ -55,6 +55,14 @@ Step9:
 To simplify the database, Find out for each subgroup which subtype has the highest identity value. All other subtypes within this group are removed from the database. This is done for all detected groups within the datasets.
 
 \
+**To install KMA in linux:**
+installation:\
+*conda install kma*
+
+activation:\
+*conda activate ENVIRONMENT*
+
+\
 **To run KMA in linux:**
 
 Create a database index using the following command:\
