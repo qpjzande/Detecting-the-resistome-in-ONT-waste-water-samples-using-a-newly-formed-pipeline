@@ -56,8 +56,8 @@ To simplify the database, Find out for each subgroup which subtype has the highe
 \
 **Galaxy-workflows:**\
 Illumina-workflow single genome: *Galaxy-Workflow-Illumina_ARG_detection.ga*\
-ONT-workflow single genome: 
-ONT-workflow metagenome:
+ONT-workflow single genome: *Galaxy-Workflow-ONT_ARG_metagenome.ga*\
+ONT-workflow metagenome: *Galaxy-Workflow-ON_ARG_genome.ga*T
 
 \
 **To install KMA in linux:**\
