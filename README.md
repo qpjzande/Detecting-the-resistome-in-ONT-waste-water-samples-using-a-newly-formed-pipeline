@@ -69,7 +69,6 @@ activation:\
 
 \
 **To run KMA in linux:**
-
 Create a database index using the following command:\
 *kma index -i DATABASE_FILE -o OUTPUT_NAME*
 
@@ -78,7 +77,6 @@ Run KMA:\
 
 \
 **Files within repository:**
-
 Simplified database (only the detected genes were simplified): *Database32final1.fasta*\
 Output from genomic ONT dataset AWGS180032_LR: *output_32.1f.res*\
 Output from genomic ONT dataset AWGS180033_LR: *output_33.f1.res*\
