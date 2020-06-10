@@ -79,5 +79,5 @@ Output from genomic ONT dataset AWGS180032_LR: *output_32.1f.res*\
 Output from genomic ONT dataset AWGS180033_LR: *output_33.f1.res*\
 Output from metagenomic ONT dataset barcode5: *output_05.f.res*\
 Output from metagenomic ONT dataset barcode06: *output_06.f1.res*\
-Output from genomic Illumina dataset SR_32: 
-Output from genomic Illumina dataset SR_33: 
+Output from genomic Illumina dataset SR_32: *staramr_SR32_results.xlsx*\
+Output from genomic Illumina dataset SR_33: *staramr_SR33_results.xlsx*
