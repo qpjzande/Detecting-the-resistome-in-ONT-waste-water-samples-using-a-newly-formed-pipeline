@@ -8,7 +8,7 @@ ONT data is used to develop the pipeline, Illumina data is used as a control whe
 
 **Flowchart:**
 
-![](images/flowchart%20end.jpg)/
+![](images/flowchart%20end.jpg)
 
 
 **Used datasets:**\
@@ -22,7 +22,7 @@ HiSeq paired (duplicates as control):\
 *SR33_SR_1.fastq (404 Mb)*\
 *SR33_SR_2.fastq (428 Mb)*\
 \
-**Below are the steps used in this project:**
+**Below are the steps used in this project:**\
 Step1:
 upload the data to Galaxy (http://galaxy.bioinformatics-atgm.nl:2222/)
 
@@ -65,7 +65,7 @@ installation:\
 activation:\
 *conda activate ENVIRONMENT*\
 \
-**To run KMA in linux:**
+**To run KMA in linux:**\
 Create a database index using the following command:\
 *kma index -i DATABASE_FILE -o OUTPUT_NAME*
 
